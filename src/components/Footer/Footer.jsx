@@ -37,45 +37,45 @@ export const Footer  = () =>{
                     <div className="col-md-2 col-sm-6">
                         <h4>Services</h4>
                         <ul className="list-unstyled">
-                            <li>hsbhs</li>
-                            <li>jscsdbs</li>
-                            <li>sbnxbjsh</li>
+                            <li>E-Learning</li>
+                            <li>Job Listing</li>
+                            <li>Coworking</li>
                         </ul>
                     </div>
                     {/*column 3*/}
                     <div className="col-md-2 col-sm-6">
                         <h4>Contact us</h4>
                         <ul className="list-unstyled">
-                            <li>nshbj</li>
-                            <li>sjshj</li>
-                            <li>sjdhw</li>
+                            <li>Reach View</li>
+                            <li>Sidebar Map</li>
+                            <li>Cover</li>
                         </ul>
                     </div>
                     {/*column 4*/}
                     <div className="col-md-2 col-sm-6">
                         <h4>Singin</h4>
                         <ul className="list-unstyled">
-                            <li>whsd</li>
-                            <li>sfxve</li>
-                            <li>xcefe</li>
+                            <li>Simple</li>
+                            <li>Cover</li>
+                            <li>Animated</li>
                         </ul>
                     </div>
                     {/*column 5*/}
                     <div className="col-md-2 col-sm-6">
                         <h4>Singup</h4>
                         <ul className="list-unstyled">
-                            <li>whsd</li>
-                            <li>sfxve</li>
-                            <li>xcefe</li>
+                            <li>Simple</li>
+                            <li>Cover</li>
+                            <li>Animated</li>
                         </ul>
                     </div>
                     {/*column 6*/}
                     <div className="col-md-2 col-sm-6" >
                         <h4>Reset Password</h4>
                         <ul className="list-unstyled">
-                            <li>whsd</li>
-                            <li>sfxve</li>
-                            <li>xcefe</li>
+                            <li>Simple</li>
+                            <li>Cover</li>
+                            <li>Animated</li>
                         </ul>
                     </div>
                 </div>
