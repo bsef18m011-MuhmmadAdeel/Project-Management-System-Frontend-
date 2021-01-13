@@ -30,4 +30,11 @@
     display: inline;
     margin: 0%;
   }
+  .link {
+    color:white !important;
+    cursor: pointer;
+  }
+  .link:hover {
+    text-decoration: none;
+  }
   

@@ -6,6 +6,8 @@ import {
   Twitter as TwitterIcon,
 } from "@material-ui/icons";
 
+import Link from '@material-ui/core/Link';
+
 
 import styles from './Footer.module.css';
 
@@ -37,45 +39,105 @@ export const Footer  = () =>{
                     <div className="col-md-2 col-sm-6">
                         <h4>Services</h4>
                         <ul className="list-unstyled">
-                            <li>E-Learning</li>
-                            <li>Job Listing</li>
-                            <li>Coworking</li>
+                            <li>
+                                <Link className={styles.link} to="/">
+                                    E-Learning {" "}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className={styles.link} to="/">
+                                    Job Listing {" "}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className={styles.link} to="/">
+                                    Coworking {" "}
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                     {/*column 3*/}
                     <div className="col-md-2 col-sm-6">
                         <h4>Contact us</h4>
                         <ul className="list-unstyled">
-                            <li>Reach View</li>
-                            <li>Sidebar Map</li>
-                            <li>Cover</li>
+                            <li>
+                                <Link className={styles.link} to="/">
+                                    Sidebar Map {" "}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className={styles.link} to="/">
+                                    Reach View {" "}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className={styles.link} to="/">
+                                    Cover {" "}
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                     {/*column 4*/}
                     <div className="col-md-2 col-sm-6">
                         <h4>Singin</h4>
                         <ul className="list-unstyled">
-                            <li>Simple</li>
-                            <li>Cover</li>
-                            <li>Animated</li>
+                            <li>
+                                <Link className={styles.link} to="/">
+                                    Sign In {" "}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className={styles.link} to="/">
+                                    Sign In {" "}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className={styles.link} to="/">
+                                    Sign In {" "}
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                     {/*column 5*/}
                     <div className="col-md-2 col-sm-6">
                         <h4>Singup</h4>
                         <ul className="list-unstyled">
-                            <li>Simple</li>
-                            <li>Cover</li>
-                            <li>Animated</li>
+                            <li>
+                                <Link className={styles.link} to="/signup">
+                                    Sign Up {" "}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className={styles.link} to="/signup">
+                                    Sign Up {" "}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className={styles.link} to="/signup">
+                                    Sign Up {" "}
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                     {/*column 6*/}
                     <div className="col-md-2 col-sm-6" >
                         <h4>Reset Password</h4>
                         <ul className="list-unstyled">
-                            <li>Simple</li>
-                            <li>Cover</li>
-                            <li>Animated</li>
+                            <li>
+                                <Link className={styles.link} to="/resetPassword">
+                                    Reset password {" "}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className={styles.link} to="/resetPassword">
+                                    Reset password {" "}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className={styles.link} to="/resetPassword">
+                                    Reset password {" "}
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
